@@ -1,0 +1,19 @@
+/* Write your global styles here, in SCSS syntax. Variables and mixins from the src/variables.scss file are available here without importing */
+@font-face {
+    font-family: 'scientifica';
+    src: url('/fonts/scientifica.ttf') format('truetype');
+}
+
+body {
+    color: $foreground;
+    font-family: scientifica;
+    background-color: $background;
+}
+
+img {
+    image-rendering: pixelated;
+}
+
+.center {
+    text-align: center;
+}

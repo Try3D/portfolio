@@ -1,2 +1,22 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script lang="ts">
+</script>
+
+<div class="center">
+	<span class="magenta">[try3d@saran ~]$</span>
+	<span class="green">echo</span>
+	<span class="yellow">'Hello world'</span>
+</div>
+
+<style lang="scss">
+	.magenta {
+		color: $magenta;
+	}
+
+	.green {
+		color: $green;
+	}
+
+	.yellow {
+		color: $yellow;
+	}
+</style>
