@@ -24,8 +24,4 @@
     a {
         color: $magenta;
     }
-
-    ul {
-        list-style-type: square;
-    }
 </style>

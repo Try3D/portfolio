@@ -14,6 +14,21 @@ img {
     image-rendering: pixelated;
 }
 
+ul {
+    list-style-type: square;
+}
+
 .center {
     text-align: center;
+}
+
+.blink {
+    display: inline-block;
+    animation: blinkCursor 1s step-end infinite;
+}
+
+@keyframes blinkCursor {
+    50% {
+        opacity: 0;
+    }
 }
